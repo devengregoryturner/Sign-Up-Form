@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "NorseBold";
+  src: url(fonts/Norsebold.woff2);
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -33,11 +39,12 @@ body {
   padding: 1rem;
 }
 .image-section__text {
-  font-size: 5rem;
+  font-family: NorseBold;
+  font-size: 6rem;
   text-transform: uppercase;
 }
 .image-section__image {
   max-width: 100%;
-  width: 5rem;
+  width: 6rem;
   height: auto;
 }

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-Up Form</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
   </head>
   <body>
     <div class="image-section">
@@ -16,6 +19,55 @@
           width="380px"
           height="508px"
         /><span class="image-section__text">Odin</span>
+      </div>
+    </div>
+    <div class="form-section">
+      <div class="form-section__header">
+        <div class="form__header-text">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <span>now</span> to get started.
+          </p>
+          <p>You <span>know</span> you want to.</p>
+        </div>
+      </div>
+      <form class="form-section__form">
+        <h1>Let's do this!</h1>
+        <div class="form__row">
+          <div class="form__field">
+            <label for="first-name">First Name</label>
+            <input id="first-name" type="text" />
+          </div>
+          <div class="form__field">
+            <label for="last-name">Last Name</label>
+            <input id="last-name" type="text" />
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="form__field">
+            <label for="email">Email</label>
+            <input id="email" type="email" />
+          </div>
+          <div class="form__field">
+            <label for="phone-number">Phone Number</label>
+            <input id="phone-number" type="tel" />
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="form__field">
+            <label for="password">Password</label>
+            <input id="password" type="password" />
+          </div>
+          <div class="form__field">
+            <label for="confirm-password">Confirm Password</label>
+            <input id="confirm-password" type="password" />
+          </div>
+        </div>
+      </form>
+      <div class="form-section__footer">
+        <button>Create Account</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
       </div>
     </div>
   </body>
